@@ -1,0 +1,71 @@
+body{
+    font-family: 20px Helvetica, sans-serif;
+    text-align: left;
+}
+.navbar {
+    background-color: rgba(245, 10, 10, 0.87);
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding:20px;
+}
+
+
+.quem-sou{
+    background-color: white;
+    color:rgba(252, 6, 6, 0.705);
+    margin-bottom: 5px;
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+    
+
+}
+.quem-sou img{
+        margin-left: 30px;
+}
+
+.margin{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contato {
+    background-color:  white ;
+    color: rgba(252, 6, 6, 0.705);;
+    padding: 50px;
+
+}
+
+.botao1{
+ 
+    background-color:rgba(252, 6, 6, 0.705);
+    border: none;
+    color: white;
+    padding: 18px 10px;
+    margin-right: 20px;
+    margin-left: 30px;
+    font-size: 15px;
+    font-family: 'Verdana';
+    border-radius: 0.5em;
+    
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao1:hover {
+    background:rgba(224, 37, 37, 0.795);
+    border-radius: 6px; 
+    padding: 10px; 
+    cursor: pointer; 
+    color:white; 
+    border: none; 
+    font-size: 14px;
+    border-radius: 0.5em;
+}
+    .projetos{
+        background:white;
+        padding: 50px;
+        color:rgba(252, 6, 6, 0.705);
+    }

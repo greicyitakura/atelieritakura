@@ -1,0 +1,115 @@
+:root{
+    --vermelho:#E50914;
+    --preta:#141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Base*/
+body{
+    background: var(--preta);
+    font-family: 'Gill Sans MT';
+    color: white;
+    
+
+}
+
+header .container{
+    display: flex;
+    flex direction: row;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+header .logo{
+    margin-left: 30px;
+    color: var(--vermelho);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 8px;
+    font-family: Helvetica;
+
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/*Filme principal*/
+
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/imagens/dark-capa.jpg');
+
+    height:500px;
+    background-size:cover;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+.filme-principal .descricao{
+    margin: 40px;
+
+}
+.titulo{
+    font-size: 40px;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botao{
+ 
+    background-color: rgba(255, 253, 253, 0.788);
+    border: none;
+    color:black;
+    padding: 18px 30px;
+    margin-right: 20px;
+    margin-left: 30px;
+    font-size: 15px;
+    font-family: 'Verdana';
+    border-radius: 0.5em;
+    
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+
+    background-color: rgba(0, 0, 0, 0.541);
+    color: white;
+    border-radius: 0.5em;
+    
+}
+.botao i{
+  
+    margin-right: 8px;
+}
+.container{
+    margin-left: 30px;
+}
+
+.filme-principal .container{
+    width: 70S%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display:block;
+
+}
+.carrosel-filmes{
+    margin-top: 12px;
+}
